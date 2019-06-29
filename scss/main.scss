@@ -373,7 +373,7 @@
 
   /* About Page */
   #about {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     &-me {
       flex-direction: column;
       margin-top: 1rem;
@@ -391,7 +391,7 @@
 
   /* Contact Page */
   #contact {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 
     .bottom-line {
       width: 80vw;
