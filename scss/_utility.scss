@@ -1,0 +1,97 @@
+$website-width: 1200px;
+$light-color: #f4f4f4;
+$primary-color: #06080a;
+$secondary-color: rgba(232, 252, 142, 0.9);
+
+$project-tile-height: 300px;
+$project-tile-width: 470px;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Amatic SC", sans-serif;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+  color: #f4f4f4;
+  background: $primary-color;
+  overflow: hidden;
+}
+
+/* Headings */
+.xl-heading {
+  font-size: 7rem;
+}
+/* Padding Classes */
+.py-1 {
+  padding: 1rem 0;
+}
+.p-2 {
+  padding: 1rem;
+}
+
+/* Center text */
+.text-center {
+  text-align: center;
+}
+
+/* Border Bottom */
+.bottom-line {
+  border-bottom: 3px solid $secondary-color;
+  border-radius: 1px;
+  padding: 0.2rem;
+  width: 200px;
+}
+/* Container */
+.container {
+  max-width: $website-width;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* List Style */
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.current {
+  border-bottom: 2px solid $secondary-color;
+  border-radius: 1px;
+}
+
+.s-lead {
+  font-size: 1.5rem;
+}
+.m-lead {
+  font-size: 2rem;
+}
+.lead {
+  font-size: 2.8rem;
+}
+
+/* Animations */
+@keyframes size {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
