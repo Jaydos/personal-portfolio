@@ -415,10 +415,8 @@ a {
 
 /* Tablets  */
 @media (min-width: 768px) and (max-width: 1200px) {
-  #main-nav {
-    margin-top: 0; }
-    #main-nav #logo {
-      visibility: hidden; }
+  #main-nav #logo {
+    visibility: hidden; }
   #project-section #project-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1;
