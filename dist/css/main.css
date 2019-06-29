@@ -371,17 +371,22 @@ a {
       visibility: hidden; }
     #main-nav-content ul li {
       font-size: 1.5rem; }
-  .showcase-content {
-    margin-top: 4rem; }
-    .showcase-content .title h1 {
-      font-size: 4rem; }
-    .showcase-content .about {
-      margin: 0; }
-      .showcase-content .about-skills {
-        width: 100%; }
-        .showcase-content .about-skills i {
-          font-size: 2rem;
-          padding: 0.5rem; }
+  .showcase {
+    width: 100%;
+    margin-top: -6rem; }
+    .showcase-content {
+      margin-top: 4rem; }
+      .showcase-content .title h1 {
+        font-size: 4rem; }
+      .showcase-content .about {
+        margin: 0; }
+        .showcase-content .about-skills {
+          width: 100%; }
+          .showcase-content .about-skills i {
+            font-size: 2rem;
+            padding: 0.5rem; }
+      .showcase-content #down-arrow {
+        display: none; }
   #project-section #project-grid {
     grid-template-columns: 1fr;
     grid-gap: 1;
