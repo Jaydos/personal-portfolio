@@ -294,6 +294,8 @@ a {
 /* Responsive Layouts*/
 /* Mobile */
 @media (max-width: 576px) {
+  .s-lead {
+    font-size: 0.5rem; }
   /* Main Nav Bar */
   #main-nav {
     background: #06080a;
