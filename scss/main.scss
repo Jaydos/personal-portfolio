@@ -304,8 +304,8 @@
   #main-nav {
     background: $primary-color;
     border-bottom: 2px solid $secondary-color;
+    margin-top: 0;
     &-content {
-      margin-top: 0.5rem;
       justify-content: center;
       #logo {
         display: none;
@@ -412,6 +412,7 @@
 /* Mobiles - Landscape */
 @media (min-width: 567px) and (max-width: 768px) {
   #main-nav {
+    margin-top: 0;
     &-content {
       #logo {
         visibility: hidden;
@@ -501,6 +502,7 @@
 /* Tablets  */
 @media (min-width: 768px) and (max-width: 1200px) {
   #main-nav {
+    margin-top: 0;
     #logo {
       visibility: hidden;
     }
