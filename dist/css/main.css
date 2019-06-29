@@ -11,8 +11,7 @@ body {
   letter-spacing: 3px;
   box-sizing: border-box;
   color: #f4f4f4;
-  background: #06080a;
-  overflow: hidden; }
+  background: #06080a; }
 
 /* Headings */
 .xl-heading {
